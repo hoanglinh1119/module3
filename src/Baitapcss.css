@@ -1,0 +1,60 @@
+*{margin:0px; padding: 0px;
+box-sizing: border-box;}
+.hoanglinh {
+    position: relative;
+    width: 1275px;
+    height: 720px;
+    background: #ffedfd;
+    margin: 0px auto;
+}
+
+.clear{
+    clear: both
+}
+
+.dropdown1{
+    position: relative;
+    list-style: none;
+    float: left;
+    background:#9fcdff;
+    height: 60px;
+    width: 182px;
+    line-height: 60px;
+    text-align: center;
+    display: block
+}
+/*.main ul li a {text-decoration: none;color: #2d07ff; font-size: 15px; display: block;}*/
+.menu1 {
+    text-decoration: none;
+    color: #2d07ff;
+    font-size: 15px;
+    display: block;
+}
+.col-1 {
+    text-decoration: none;
+}
+.dropdown1 >.sub-menu {
+    display: none
+}
+.a1{
+    background:#9fcdff;
+    width: 200px;
+    height: 60px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #2d07ff;
+    font-size: 15px;
+    display: block;
+}
+
+.dropdown1:hover >.sub-menu {
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    display: block;
+    list-style: none;
+}
+
+.sub-menu:hover{
+    background: #1e7e34;
+}
